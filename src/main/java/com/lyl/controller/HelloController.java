@@ -33,6 +33,10 @@ public class HelloController {
 //        return "popupsignin";
 //    }
 
+    public String testGit(){
+        return "Git!";
+    }
+
 
 
 }
