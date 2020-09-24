@@ -21,6 +21,7 @@ public class HelloController {
         return "Hello";
     }
 
+
     @GetMapping("/test")
     public String test(Model model){
         model.addAttribute("msg","Hello SpringBoot!");
