@@ -41,6 +41,10 @@ public class HelloController {
         return "git";
     }
 
+    public String testGit3(){
+        return "git1";
+    }
+
 
 
 }
