@@ -1,4 +1,4 @@
-package com.lyl.controller;
+package cn.com.hyxc.hcpmidsys.modulelogin.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -20,7 +20,6 @@ public class HelloController {
     public String hello(){
         return "Hello";
     }
-
 
     @GetMapping("/test")
     public String test(Model model){
